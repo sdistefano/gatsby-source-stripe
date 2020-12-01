@@ -5,6 +5,7 @@ function extractUrls(node) {
     case "product":
       return node.images.map((url) => ({ location: "root", url }));
     case "sku":
+    case "price":
       return extractSkuUrls(node);
     default:
       return [];
