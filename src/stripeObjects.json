@@ -423,10 +423,10 @@
       "type": "Price",
       "description": "A list of Price objects.",
       "canIterate": true,
-      "active": true,
       "methodName": "list",
       "methodArgs": {
-        "expand": ["data.product"]
+        "expand": ["data.product"],
+        "active": true
       }
     }
   ]
